@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edelweiss Bakery</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+<body>
+  <section class="navbar">
+    <a href="../">
+      <div style="display: flex; gap: var(--padding-xs); align-items: center;">
+        <img src="/images/favicon.png" style="width: var(--body-font-size); height: var(--body-font-size)">
+        <p>Cynthia Wang</p>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="../">WORK</a>
+      <!-- <a href="#">PLAY</a> -->
+      <a href="../about/">ABOUT</a>
+      <a href="https://docs.google.com/document/d/1ndW5JyfrWtd5t9khAoJJcHyy4zvyieroYPjoqpuAvbI/edit?usp=sharing" target="_blank">RESUME</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <img src="/images/edelweiss/cover.png">
+    </div>
+  </section>
+
+  <div class="project-details">
+    <div class="">
+      <div class="sidenav gap-sm">
+        <a href="#problem"><p>1. PROBLEM</p></a>
+        <a href="#process"><p>2. PROCESS</p></a>
+        <a href="#solution"><p>3. SOLUTION</p></a>
+        <a href="#learnings"><p>4. LEARNINGS</p></a>
+      </div>
+    </div>
+    
+    <div>
+      <!-- OVERVIEW -->
+      <section class="">
+        <div class="container gap-lg">
+          <div class="gap-sm">
+            <h1>Edelweiss Bakery</h1>
+            <p>Casual counter-serve featuring sweet & savory baked goods, including bread, pastries & custom cakes.</p>
+          </div>
+          
+          <div class="col-container">
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">DURATION</p>
+                <p class="small-text">February 2024 - March 2024<br>3 weeks
+                </p>
+              </div>
+              <div>
+                <p class="subheading">LOCATION</p>
+                <p class="small-text">Providence, RI</p>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">TEAM</p>
+                <p class="small-text">Individual
+                </p>
+              </div>
+              <div class="col">
+                <p class="subheading">FINAL DESIGN</p>
+                <p class="small-text"><a href="https://cyvvang.github.io/edelweiss-responsive-redesign/" target="_blank">Website &nearr;</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">DISCIPLINES</p>
+                <p class="small-text">Responsive Design<br>Web Design
+                </p>
+              </div>
+              <div class="col">
+                <p class="subheading">TOOLS</p>
+                <p class="small-text">HTML/CSS</p>
+                <p class="small-text">Figma</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </section>
+
+      <!-- PROBLEM -->
+      <section id="problem">
+        <div class="container">
+          <p class="subheading">PROBLEM</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>An Outdated Website</h2>
+              <div class="info-card deep">
+                <p>Imagine wanting to try out a new bakery and visiting their website just to see this:</p>
+              </div>
+            </div>
+            <video autoplay loop muted playsinline class="">
+              <source src="/images/edelweiss/old-website-demo.mp4" type="video/mp4">
+            </video>
+            <p>As a child, I frequently visited Edelweiss Bakery with my family for their pastries and signature fruit flan, which was a staple at our birthday celebrations. When I finally checked out their website not long ago, I immediately decided to embark on a redesign.</p> 
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container gap-md">
+          <p>After performing a quick audit on the website, I identified several key issues I wanted to focus on:</p>
+          <div class="card-container">
+            <div class="info-card light">
+              <p>01</p>
+              <h4>📲 Responsiveness</h4>
+              <p class="subheading">The website was not responsive, making it nearly impossible for non-desktop users (the majority of user) to navigate the site effectively.</p>  
+            </div>
+            <div class="info-card light">
+              <p>02</p>
+              <h4>🖼️ Layout</h4>
+              <p class="subheading">The website was extremely cluttered due to a lack of stylistic consistency. Additionally, the navigation was overloaded with pages and did a poor job of prioritization.</p>  
+            </div>
+            <div class="info-card light">
+              <p>03</p>
+              <h4>🔠 Typography</h4>
+              <p class="subheading">7 fonts, including overly decorative scripts, were used on just the homepage, which hindered readability and cohesion.</p>  
+            </div>
+            <div class="info-card light">
+              <p>04</p>
+              <h4>🌗 Contrast and Accessibility</h4>
+              <p class="subheading">Insufficient contrast in buttons and text and a lack of alternate text for images contributed to a low <strong>accessibility score of 80</strong> on Lighthouse.</p>  
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section id="process">
+        <div class="container">
+          <p class="subheading">PROCESS</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Wireframing</h2>
+              <p>I focused on redesigning the website's layout to follow more of a grid structure and enhancing the visual hierarchy for better readability. I prioritized key navigation items and moved the less critical ones to a hamburger menu to reduce clutter.</p>
+            </div>
+            <div class="overlay-container">
+              <div class="scrollable desktop">
+                <p class="progress-msg">Scroll ↴</p>
+                <img src="/images/edelweiss/desktop-lofi.png">
+              </div>
+            </div>
+            <p>I also reduced the layout from three columns to two to improve readability and better highlight the images. The images themselves needed updating due to poor quality and lighting.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHALLENGE -->
+      <section>
+        <div class="container gap-md">
+          <div class="gap-sm">
+            <h2>Balancing Feedback</h2>
+            <p>While working on the hi-fi version of the website, a friend pointed out that my design felt more suited to a modern bakery rather than the family-owned, homely vibe of Edelweiss Bakery.</p>
+          </div>
+          <p>This raised a crucial question:</p>
+          <div class="info-card deep">
+            <h4>How can I maintain the essence of the original website?</h4>
+          </div>
+          <p>After discussing this with another designer, I learned that preserving the old website's essence was challenging due to its numerous issues. To address both perspectives, I created a style guide that incorporated some existing elements from the old site, such as a script font and select colors, to better reflect the bakery's original character.</p>
+        </div>
+      </section>
+      
+      <!-- BRANDING -->
+      <section id="">
+        <div class="container">
+          <div class="gap-md">
+            <h2>Identity</h2>
+            <img src="/images/edelweiss/style-guide.png">
+            <p>I developed a comprehensive style guide that retained elements of the old website’s warm color palette and typography. The new design utilizes only two fonts, with Kaushan Script used sparingly for the logo and hero text to reinforce Edelweiss's brand identity. Additionally, the design streamlined the user interface by reducing the number of button types from 7 to 2, enhancing both simplicity and consistency.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SOLUTION -->
+      <section id="solution">
+        <div class="container">
+          <p class="subheading">SOLUTION</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Final Designs</h2>
+              <p>The final design reflects a significant improvement in usability, aesthetics, and accessibility. Despite challenges in balancing the old website's essence with modern design elements, the redesigned interface successfully communicates the bakery's story and ethos to its audience.</p>
+            </div>
+            <p>I was able to bring the accessibility score from an 80 to a 97 by adding alternative text to all of my images and using proper HTML tags when coding.</p>
+            <a href="
+              https://cyvvang.github.io/edelweiss-responsive-redesign/" target="_blank"><h4>See final website here &nearr;</h4></a>
+            <div class="overlay-container">
+              <div class="scrollable desktop">
+                <p class="progress-msg">Scroll ↴</p>
+                <img src="/images/edelweiss/desktop-hifi.png">
+              </div>
+            </div>
+            <div class="card-container">
+              <div class="info-card light">
+                <p>01</p>
+                <h4>✅ Responsive Design</h4>
+                <p class="subheading">The redesigned website prioritizes responsiveness, ensuring a consistent user experience across all device sizes.</p>  
+              </div>
+
+              <div class="info-card light">
+                <p>02</p>
+                <h4>✅ Clean Layout</h4>
+                <p class="subheading">A cleaner, more organized layout with reduced navigation items and clearer content grouping enhances usability and reduces visual overload.</p>  
+              </div>
+
+              <div class="info-card light">
+                <p>03</p>
+                <h4>✅ Typography</h4>
+                <p class="subheading">Limiting the number of font families used to 2 improves readability and visual consistency.</p>  
+              </div>
+              <div class="info-card light">
+                <p>04</p>
+                <h4>✅ Contrast and Accessibility</h4>
+                <p class="subheading">Improved button contrast/styling and inclusion of alternate text for images enhance accessibility and user engagement.</p>  
+              </div>
+            </div>
+            <video autoplay loop muted playsinline class="">
+              <source src="/images/edelweiss/responsive-demo.mp4" type="video/mp4">
+            </video>
+            <div class="row">
+              <div>
+                <video autoplay loop muted playsinline class="">
+                  <source src="/images/edelweiss/hover-effects.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div>
+                <video autoplay loop muted playsinline>
+                  <source src="/images/edelweiss/mobile-menu-demo.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- LEARNINGS -->
+      <section id="learnings">
+        <div class="container">
+          <p class="subheading">LEARNINGS</p>
+          <div class="gap-sm">
+            <h2>Takeaways</h2>
+            <ol>
+              <li><strong>Balancing tradition with modernization</strong>: One of the biggest challenges was blending Edelweiss's traditional charm with a modern look. While the redesign is quite different from the original, I made sure to incorporate some of the original brand colors and typography to maintain that connection to their roots.</li>
+              <li><strong>Need for user testing</strong>: More user testing would have been beneficial to ensure that the redesign felt consistent with the bakery's original vibe rather than creating a sense of two separate bakeries.</li>
+              <li><strong>Great practice</strong>: This was a great opportunity to enhance both my coding and UI design skills. I had so much fun working on this redesign!</li>
+            </ol> 
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="container">
+    <hr>
+  </div>
+  
+  <section class="">
+    <div class="container footer">
+      <div class="gap-sm">
+        <h1>Thanks for visiting ٩(ˊᗜˋ*)و ♡</h1>
+        <p>Designed and coded by Cynthia Wang</p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>LET'S CHAT!</p>
+          <p><a href="https://www.linkedin.com/in/cynthiawangdesign/" target="_blank">LinkedIn &nearr;</a></p>
+        </div>
+        <p><a href="mailto:cynthia_wang@brown.edu" target="_blank">Email &nearr;</a></p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>NAVIGATION</p>
+          <p><a href="../">Work</a></p>
+        </div>
+        <!-- <p><a href="#">Play</a></p> -->
+        <p><a href="../about/">About</a></p>
+        <p><a href="https://docs.google.com/document/d/1ndW5JyfrWtd5t9khAoJJcHyy4zvyieroYPjoqpuAvbI/edit?usp=sharing" target="_blank">Resume</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

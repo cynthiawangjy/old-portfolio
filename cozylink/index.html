@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CozyLink</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+<body>
+  <section class="navbar">
+    <a href="../">
+      <div style="display: flex; gap: var(--padding-xs); align-items: center;">
+        <img src="/images/favicon.png" style="width: var(--body-font-size); height: var(--body-font-size)">
+        <p>Cynthia Wang</p>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="../">WORK</a>
+      <!-- <a href="#">PLAY</a> -->
+      <a href="../about/">ABOUT</a>
+      <a href="https://docs.google.com/document/d/1ndW5JyfrWtd5t9khAoJJcHyy4zvyieroYPjoqpuAvbI/edit?usp=sharing" target="_blank">RESUME</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <img src="/images/cozylink/cover.png">
+    </div>
+  </section>
+
+  <div class="project-details">
+    <div class="">
+      <div class="sidenav gap-sm">
+        <p><a href="#overview">1. OVERVIEW</a></p>
+        <p><a href="#research">2. RESEARCH</a></p>
+        <p><a href="#objectives">3. OBJECTIVES</a></p>
+        <p><a href="#solution">4. SOLUTION</a></p>
+        <p><a href="#process">5. PROCESS</a></p>
+        <p><a href="#learnings">6. LEARNINGS</a></p>
+      </div>  
+    </div>
+    
+    <div>
+      <section class="">
+        <div class="container gap-lg">
+          <div class="gap-sm">
+            <h1>CozyLink</h1>
+            <p>An all-in-one app to simplify your rental journey, from searching to living.</p>
+          </div>
+          
+          <div class="col-container">
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">DURATION</p>
+                <p class="small-text">Oct 2023 - May 2024<br>8 months
+                </p>
+              </div>
+              <div>
+                <p class="subheading">LOCATION</p>
+                <p class="small-text">Providence, RI / Remote</p>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">TEAM</p>
+                <div class="gap-xs">
+                  <p class="small-text">Founders:<br>
+                    Lana Nguyen, Victoria Aye</p>
+                  <p class="small-text">Financial Research Analyst: Brian Huynh</p>
+                  <p class="small-text">Engineers:<br>Yashas Jain, Yiran Shi</p>
+                  <p class="small-text">Design Stategist:<br>Tenzin Choezin</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">DISCIPLINES</p>
+                <p class="small-text">Product Design<br>Visual Design<br>Design Systems
+                </p>
+              </div>
+              <div class="col">
+                <p class="subheading">TOOLS</p>
+                <p class="small-text">Figma
+              </div>
+            </div>
+          </div>
+
+          <div class="info-card deep" style="gap: var(--padding-xs);">
+            <h4>⚠️ Note</h4>
+            <p>This startup is no longer active since the founders decided to step away due to doubts about the business model. As a result, much of my design work is incomplete.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- OVERVIEW -->
+      <section id="overview">
+        <div class="container">
+          <p class="subheading">OVERVIEW</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Why CozyLink?</h2>
+              <p>CozyLink is a student startup aimed to tackle the fragmented, inefficient, and often unreliable rental process that many young adults, specifically students, face. The app itself is meant to create centralization by enabling students to search and discover reliable rentals without needing to consult external platforms and connect with other verified users, including renters, landlords, and tenants.</p>
+            </div>
+            <p>As the founding designer, I designed the entire app from scratch and created our visual identity. My designs focus on the renter account since I didn’t get to the lister account before the project ended.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- RESEARCH -->
+      <section id="research">
+        <div class="container">
+          <p class="subheading">RESEARCH</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Research Methods</h2>
+              <p>In order to validate the need for our app, I collaborated with a few teammates to create a market research survey to gauge students’ experiences with the housing rental process. The questions ranged from how they discover properties to begin with to what could have improved their experiences. After distributing our survey, we interviewed some of the respondents. I also did my own research on popular rental apps in market to kick off my designs.</p>
+            </div>
+
+            <div class="gap-sm">
+              <div class="info-card light">
+                <h4>📝 65 Survey Responses</h4>
+                <p class="subheading">Helped validate the need for our product. Many young adults are indeed frustrated with current avenues of searching for housing and communicating with all parties involved.</p>  
+              </div>
+
+              <div class="info-card light">
+                <h4>🤝 10 Individual Interviews</h4>
+                <p class="subheading">Allowed us to understand the individual needs of students and recent grads to gain a better sense of what specific in-app features they’d find helpful.</p>  
+              </div>
+
+              <div class="info-card light">
+                <h4>💻 Secondary Research</h4>
+                <p class="subheading">Enabled me to draw visual guidance from similar apps in the market. I was also able to discover more pain points from the lister perspective.</p>  
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container gap-md">
+          <h2>Key Findings</h2>
+          <div class="card-container">
+            <div class="info-card light">
+              <h4>🚀 The Next Step</h4>
+              <p>Students want to live off-campus as a stepping stone towards adulthood.</p>
+              <hr class="light">
+              <p class="subheading"><em>“More freedom, seems like a natural thing to do once we are older”</em></p>
+              <p class="subheading"><em>“Being able to become more independent”</em></p>
+            </div>
+            
+            <div class="info-card light">
+              <h4>🗣 Discovery Methods</h4>
+              <p>Students are frustrated by fragmented modes of communication.</p>
+              <hr class="light">
+              <p class="subheading"><em>“Just having everything in one place instead of having to use so many sites”</em></p>
+              <p class="subheading"><em>“I think the main issues when choosing a place to rent from were disjointed communication methods (text, GroupMe, Instagram, etc.)”</em></p>
+            </div>
+
+            <div class="info-card light">
+              <h4>🌐 Available Network</h4>
+              <p>Students discover housing options primarily through friends and social media.</p>
+              <hr class="light">
+              <p class="subheading"><em>42 out of 54 respondents find housing through Friends/Classmates</em></p>
+              <p class="subheading"><em>“Finding people to move in with is often hard since people have different wants and needs for housing”</em></p>
+              <p class="subheading"><em>“(Would have preferred]) matching apps”</em></p>
+            </div>
+
+            <div class="info-card light">
+              <h4>🔍 Transparency and Accuracy</h4>
+              <p>Lessors struggle to find suitable tenants while renters struggle to find detailed information about landlords and rentals.</p>
+              <hr class="light">
+              <p class="subheading"><em>“Did not sublet because couldn’t find anyone”</em></p>
+              <p class="subheading"><em>“It was very difficult to find people to rent to and I had to lower the price.”</em></p>
+              <p class="subheading"><em>“No information about landlord until after agreement to sublease”</em></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container gap-md">
+          <div class="gap-sm">
+            <h2>Competitive Analysis</h2>
+            <p>To supplement my primary research, I downloaded 6 mobile apps and browsed a website before starting initial concepts. While my intention was to focus on these platforms’ onboarding flows, I extracted far more useful information to guide my designs and position our app more favorably to our users.</p>
+          </div>
+          
+          <img src="/images/cozylink/competitive-analysis.png">
+          <p>I ended up using Airbnb’s mobile app as my main reference since they encompassed the most features that aligned with CozyLink’s goals.</p>
+        </div>
+      </section>
+        
+      <!-- OBJECTIVES -->
+      <section id="objectives">
+        <div class="container">
+          <p class="subheading">OBJECTIVES</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Project Goals</h2>
+              <p>I identified three areas of improvement that I sought to address:</p>
+            </div>
+            <div class="gap-sm">
+              <div class="info-card light">
+                <p class="subheading">HMW Statement 01</p>
+                <p>How might we empower users to feel confident during the rental process?</p>  
+              </div>
+
+              <div class="info-card light">
+                <p class="subheading">HMW Statement 02</p>
+                <p>How might we streamline and centralize the rental process for users?</p>  
+              </div>
+
+              <div class="info-card light">
+                <p class="subheading">HMW Statement 03</p>
+                <p>How might we make the rental and roommate search more enjoyable for users?</p>  
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+      
+      <!-- SOLUTION -->
+      <section id="solution">
+        <div class="container">
+          <p class="subheading">SOLUTION</p>
+          <div class="gap-md">
+            <h2>Final Designs</h2>
+            <div class="info-card deep">
+              <h3>01 | Comprehensive Details about Rentals</h3>
+              <hr>
+              <div class="row md center">
+                <div class="col-1-3">
+                  <video autoplay muted loop playsinline title="">
+                    <source src="/images/cozylink/rental-details-general.mp4" type="video/mp4"/>
+                  </video>
+                </div>
+                <div class="col-2-3 gap-xs">
+                  <h4>Home / Rental Details / General</h4>
+                  <p>View details on utility and Wi-Fi fees, laundry, furniture, and room availability. Users can also inquire about available rooms, use the interactive map, and see what’s included and excluded in the property.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row md center">
+                <div class="col-1-3">
+                  <video autoplay muted loop playsinline title="">
+                    <source src="/images/cozylink/rental-details-people.mp4" type="video/mp4"/>
+                  </video>
+                </div>
+                <div class="col-2-3 gap-xs">
+                  <h4>Rental Details / People</h4>
+                  <p>Connect with interested parties, current and previous tenants, and view landlord details, reviews, and other properties to make a more informed decision.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row md center">
+                <div class="col-1-3">
+                  <video autoplay muted loop playsinline title="">
+                    <source src="/images/cozylink/rental-details-reviews.mp4" type="video/mp4"/>
+                  </video>
+                </div>
+                <div class="col-2-3 gap-xs">
+                  <h4>Rental Details / Reviews</h4>
+                  <p>Get overall ratings, read comments, and ask anonymous questions about the property. Only verified tenants and landlords can answer these questions.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card deep">
+              <h3>02 | All-in-One Housing App</h3>
+              <hr>
+              <div class="row md center">
+                <div class="col-1-3">
+                  <video autoplay muted loop playsinline title="">
+                    <source src="/images/cozylink/all-in-one-app.mp4" type="video/mp4"/>
+                  </video>
+                </div>
+                <div class="col-2-3 gap-xs">
+                  <h4>Rental and Roommate Search and Messaging</h4>
+                  <p>Messaging attachments cater to user needs by allowing easy sharing of information, fulfilling many requirements without needing to leave the app.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row md center">
+                <div class="col-1-3">
+                  <video autoplay muted loop playsinline title="">
+                    <source src="/images/cozylink/my-places.mp4" type="video/mp4"/>
+                  </video>
+                </div>
+                <div class="col-2-3 gap-xs">
+                  <h4>My Places</h4>
+                  <p>This interactive map helps users avoid navigating away from the app by allowing them to calculate distances between the property and any location based on their mode of transit</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="info-card deep">
+              <div class="row md">
+                <div class="col-1-3">
+                  <h3>03 | Customizable Experience</h3>
+                </div>
+                <div class="col-2-3">
+                  <p>Users have many options to customize their profiles and personalize their experience on the app.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row md center">
+                <div class="col-1-3">
+                  <video autoplay muted loop playsinline title="">
+                    <source src="/images/cozylink/create-roommate-profile.mp4" type="video/mp4"/>
+                  </video>
+                </div>
+                <div class="col-2-3 gap-xs">
+                  <h4>Roommate Profile</h4>
+                  <p>A two-part process involves a customizable profile card and a logistical questionnaire. Access to this page requires users to create a profile.</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row md center">
+                <div class="col-1-3">
+                  <video autoplay muted loop playsinline title="">
+                    <source src="/images/cozylink/create-avatar.mp4" type="video/mp4"/>
+                  </video>
+                </div>
+                <div class="col-2-3 gap-xs">
+                  <h4>Create an Avatar</h4>
+                  <p>Customizable avatar illustrations offer profile picture alternatives with 4 house shapes, 8 facial expressions, 6 body colors, and 7 background colors to choose from.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROCESS -->
+      <section id="process">
+        <div class="container">
+          <p class="subheading">PROCESS</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Desired Features</h2>
+              <p>Gathering insights from our interviewees, I organized the features users mentioned wanting in our app and grouped them under key concepts. The dots below the gray sticky notes represent the frequency these features were mentioned.</p>
+            </div>
+            <img src="/images/cozylink/desired-features.png">
+            <p>Overall, users want more transparency on rentals, such as additional fees outside of the total rent and the ability to verify the landlord or lister of each property. Users are also looking for easier ways to ensure compatibility and connect with prospective roommates. Finally, they want to maximize the amount of in-app communication to avoid using multiple apps.</p>
+          </div>  
+        </div>
+      </section>
+      
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h2>Creating a Design System</h2>
+          <p>This was my first time creating an extensive design system. After selecting our brand color, Pine-60, which was used for the logo, I developed an extended palette. I followed Brad Frost’s Atomic Design to structure my workflow and drew inspiration from Ant Design.</p>
+        </div>
+        <img src="/images/cozylink/design-system.png">
+        <div class="row xs">
+          <div class="col-1-3">
+            <h4>Colors</h4>
+          </div>
+          <div class="col-2-3">
+            <p>I developed a neutral palette using warm grays to reflect our brand's cozy, clean, and fun values. I then introduced colors for avatars and identified the need for semantic colors. All colors meet WCAG contrast standards against our lightest and darkest neutrals.</p>
+          </div>
+        </div>
+
+        <div class="row xs">
+          <div class="col-1-3">
+            <h4>Typography</h4>
+          </div>
+          <div class="col-2-3">
+            <p>I initially used both Sora and DM Sans but later opted for just DM Sans for a cleaner look. While experimenting with other font families, I did appreciate Figtree for its slimmer letters, which resulted in better line fit, but I ultimately chose DM Sans for its structured appearance and sharper numbers.</p>
+          </div>
+        </div>
+
+        <div class="row xs">
+          <div class="col-1-3">
+            <h4>Icons</h4>
+          </div>
+          <div class="col-2-3">
+            <p>I used a combination of Lucide.dev, Heroicons, and custom icons.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h2>Adding the Fun</h2>
+          <p>I designed these avatars as part of the account creation experience to offer a customizable option to our users.</p>
+        </div>
+        <img src="/images/cozylink/avatars.png">
+        <p>Although these avatars are primarily used for profile icons, there is potential to expand their use to enhance empty states, error messages, and loading screens, making them more engaging and delightful.</p>
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h2>Home / Initial Wireframes</h2>
+          <p>While wireframing, I struggled with understanding the app’s vision. The homepage aimed to link to the roommate finder, subleasing, and subletting pages. However, I found some key issues: the distinction between subleasing and subletting was unclear, and there was significant overlap between the roommates and landing pages.</p>
+        </div>
+        <img src="/images/cozylink/home-lo-fi-annotated.png">
+        <p>I initially interpreted the roommate board as for users who had secured rentals and were seeking roommates, rather than those who formed housing groups before the search. Additionally, there was no clear way for users to access the roommate questionnaire or rental posting form.</p>
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h2>Home / More Iterations</h2>
+          <p>After a few iterations, I enhanced the title with additional information, added a toggle for Rental and Lister Details on the rental details page, and introduced features aligned with our user research, including an interactive map, an amenities list, and a Q&A board.</p>
+        </div>
+        <img src="/images/cozylink/home-mid-fi-annotated.png">
+        <p>I moved the roommate profile to the lister details and added landlord and tenant information to address high-priority user needs for greater transparency. I also updated the fixed footer with options to request a roommate or schedule a tour.
+        </p>
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h2>⚠️ Overcoming a Major Roadblock: Redesigning for Diverse User Needs</h2>
+          <p>Since the team aimed to combine listing and renting functionalities within a single account, I designed with this approach in mind. However, this solution fell short of addressing the diverse needs of our users. While my iterations improved in meeting renter expectations, they struggled to effectively cater to all user types—renter, sublessor, and landlord—due to the difficulty of consolidating multiple functionalities into one account.</p>
+        </div>
+        <p>The forms, like the roommate questionnaire and property listing form, served different purposes for various user types. Renters needed the questionnaire once, sublessors used the listing form occasionally, and landlords required it multiple times. As a result, placing these forms in a quick actions button or grouping them within one account proved inefficient.</p>
+        <div class="info-card dark">
+          <p class="subheading">📝 Revisiting my research</p>
+          <p>After revisiting my competitor analysis, I concluded that <strong>a complete reorganization of the app was necessary</strong>. All the 7 platforms I analyzed had separate renter/guest and lister/host accounts for a good reason, which I found out the hard way. As a result, I needed to <strong>separate landlord and renter functionalities</strong> to better address the unique needs and functionalities of each user type.</p>
+        </div>
+        <p>While I didn’t end up getting to work on the lister account, I concentrated on tailoring the renter account to better meet renter needs.</p>
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h2>CozyLink Site Map</h2>
+          <p>After having multiple discussions with my team regarding the restructure, I created a site map to organize our ideas and understand the interactions within the primary navigation. This new navigation includes: Home (defaulting to rental units with a toggle for roommates), Messages, Community 🆕, Starred, and Profile.</p>
+        </div>
+        <img src="/images/cozylink/site-map.png">
+        <p>Unfortunately, I didn’t work on the Community section since it was added towards the end of the project. Since younger student renters often see living off-campus as a step toward adulthood, the Community page would have been valuable for helping them acclimate to their new city and connect with other young adults through interest groups and local events.</p>
+        <p>I also had limited time to work on the Profile page, which would have included a way for users to switch between rental and landlord/lister accounts, either at the bottom of the page or through a long-press.</p>
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h2>Onboarding Flow</h2>
+          <p>Right off the bat, I wanted to minimize the amount of steps it takes for a user to reach the home page where they can view rentals while still having enough information in the backend to provide them with a complete homepage.</p>
+        </div>  
+        <p>At the team's request, I made the first screen an optional sign-up page. Since we likely wouldn't have enough listings on our app to create an Airbnb-like homepage with appealing non-location-based listings, I added a required location field to the onboarding screens.</p>
+        <img src="/images/cozylink/onboarding-flow.png">
+        <p>After mapping out user flows for both new users (create an account or continue as a guest) and existing users, I developed detailed flows for each scenario. While creating an account can be cumbersome, it is essential for users who want to do more than just browse, share, or star properties.</p>
+        <div class="info-card deep">
+          <div class="row md center">
+            <div class="col-1-3">
+              <video autoplay muted loop playsinline title="">
+                <source src="/images/cozylink/browse-as-guest.mp4" type="video/mp4"/>
+              </video>
+            </div>
+            <div class="col-2-3 gap-xs">
+              <h4>Start Browsing in Just 4 Taps</h4>
+              <p>Users can access the home page in 4 taps or 3 selections. While browsing rentals doesn’t require an account, setting up a roommate profile is necessary to access the Roommates page, ensuring only genuine seekers can view profiles and enhancing safety.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <p class="subheading">ADDRESSING QUESTION 1</p>
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>How might we empower users to feel confidence during the rental process?</h2>
+            <p>Most of my work centered on refining the homepage and rental details pages. These pages now feature property information, availability, and details about individuals involved, such as those who have starred the property, current and previous tenants, and a landlord profile with reviews. Tenants can leave reviews, and prospective renters can post questions on the Q&A Board.</p>
+          </div>
+        </div>  
+      </div>
+
+      <div class="container gap-md">
+        <h3>Home / Rental Units</h3>
+        <p>Each renter card displays information such as bedroom availability, lease dates, utility and Wi-Fi prices, laundry options, and whether the property is furnished. Clicking on the card navigates users to a three-tab details page, which is further expanded on in the subsequent section.</p>
+
+        <div class="info-card deep">
+          <div class="row md center">
+            <div class="col-1-3">
+              <img src="/images/cozylink/home-new.png">
+            </div>
+            <div class="col-2-3">
+              <p>✅ Rental Units and Roommates toggle, reflecting the decision to separate renter and lister views</p>
+              <p>✅ Share button + old Save button</p>
+              <p>✅ Clear information on bedroom availability and lease dates</p>
+              <p>✅ Exact property address</p>
+              <p>✅ Icons to indicate additional fees and other information</p>
+              <p>✅ (Not pictured) My Places</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container gap-md">
+        <div class="row md">
+          <div class="col-1-3">
+            <h3>Expanded Rental Details View</h3>
+          </div>
+          <div class="col-2-3">
+            <p>A detailed look at the pages I designed reveals that users have access to extensive property information and can directly contact individuals for further questions.</p>
+          </div>
+        </div>
+        <img src="/images/cozylink/rental-details.png">
+      </div>
+
+      <div class="container">
+        <p class="subheading">ADDRESSING QUESTION 2</p>
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>How might we streamline and centralize the rental process for users?</h2>
+            <p>Interviews revealed that users struggled with fragmented communication and discovery across multiple apps, leading to inefficiency and frustration. To address this, I incorporated extensive functionality and detailed information into our app to minimize the need for users to rely on external apps.</p>
+          </div>
+        </div>  
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h3>Rental Details / People</h3>
+          <p>I created sections to display individuals who starred the property (potential roommates), current tenants, and the landlord. By consolidating all contacts on one page, users have direct access to everyone involved isn the rental process, eliminating the need to use multiple apps for communication—a major pain point highlighted in interviews.</p>
+        </div>
+        <img src="/images/cozylink/rental-details-people-annotated.png">
+      </div>
+      
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h3>Adding a Location to My Places</h3>
+          <p>I also designed My Places, an interactive map that lets users add their locations and automatically calculates distances and commute times. These locations are applied globally, meaning entries made on one rental details page will appear on other rental pages as well, though they can be edited in the user profile.</p>
+        </div>
+        <img src="/images/cozylink/my-places-annotated.png">
+      </div>  
+
+      <div class="container gap-md">
+        <div class="info-card deep">
+          <div class="row md center">
+            <div class="col-1-3">
+              <video autoplay muted loop playsinline title="">
+                <source src="/images/cozylink/share-property.mp4" type="video/mp4"/>
+              </video>
+            </div>
+            <div class="col-2-3 gap-xs">
+              <h3>Share a Property</h3>
+              <p>Users can directly share properties within the app with users they have connected with rather than copying a link to share outside the app.</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row md center">
+            <div class="col-1-3">
+              <video autoplay muted loop playsinline title="">
+                <source src="/images/cozylink/star-property.mp4" type="video/mp4"/>
+              </video>
+            </div>
+            <div class="col-2-3 gap-xs">
+              <h3>Star a Property</h3>
+              <p>Users can star properties and organize them into custom folders, which can be shared with other users.</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <div class="container">
+        <p class="subheading">ADDRESSING QUESTION 3</p>
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>How might we make the rental and roommate search more enjoyable for users?</h2>
+            <p>Given that the housing process is often cumbersome and draining, my goal was to enhance the experience by integrating more fun and engaging elements. I decided to incorporate social media-like elements into the app such as:</p>
+          </div>
+          <ol>
+            <li>Adding a customizable roommate profile card section in addition to the more tedious roommate questionnaire as part of the Roommate Profile creation process</li>
+            <li>Requesting to message other users to mimic friend requests</li>
+          </ol>
+        </div>
+      </div>  
+      
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h3>Changes to the Roommate Profile Card</h3>
+          <p>First, I needed to make some critical changes to our existing roommate profile card, as it plays a vital role in the app. I had previously identified issues with its visual appeal and the content, which was heavily focused on logistics and failed to capture the user's personality and interests—key factors in fostering connections that could turn a roommate into a friend</p>
+        </div>
+        <img src="/images/cozylink/roommate-card-changes.png">
+        <p>While working on this, I recognized an opportunity to expand the app's use beyond renters to also support students living on-campus who are seeking roommates, as finding a compatible roommate is challenging regardless of living situation.</p>
+        <img src="/images/cozylink/roommate-card-types-annotated.png">
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h3>Creating a Roommate Profile</h3>
+          <p>While the Roommate Questionnaire was always a required step in building a roommate profile, I introduced the Roommate Card Builder to bridge the gap between the Roommate Card displayed on the Roommates page and what the full profile page could look like.</p>
+        </div>
+        <p>Although this adds an extra step to the process, it shifts additional questions from the questionnaire to the card builder, giving users more creative freedom to personalize how they present themselves to prospective roommates.</p>
+        <img src="/images/cozylink/roommate-profile-annotated.png">
+
+        <div class="col-container center">
+          <div class="col-1-2">
+            <img src="/images/cozylink/roommates-message-request.png">
+          </div>
+          <div class="col-1-2 gap-xs">
+            <h3>Sending a Message Request</h3>
+            <p>Allows users to initiate a connection and express interest in interaction with a user. Fosters community engagement and creates a controlled way for users to make contact.</p>
+          </div>
+        </div>
+
+        <div class="col-container center">
+          <div class="col-1-2">
+            <img src="/images/cozylink/roommates-accept-request.png">
+          </div>
+          <div class="col-1-2 gap-xs">
+            <h3>Responding to a Message Request</h3>
+            <p>Allows users to manage their communication, ensuring they only respond to requests from individuals they are interested in or feel comfortable interacting with. It enhances privacy and safety by filtering who can start conversations with them.</p>
+          </div>
+        </div>
+      </div>  
+        
+      <!-- LEARNINGS -->
+      <section id="learnings">
+        <div class="container">
+          <p class="subheading">LEARNINGS</p>
+          <div class="gap-sm">
+            <h2>Takeaways</h2>
+            <ol>
+              <li><strong>Don't strive for perfection</strong>: My younger self would have never thought I'd say this. However, our strive for perfection severely hindered our progress. We aimed to create a flawless product rather than focusing on a MVP and allowing user testing to guide the rest of the product. We should have prioritized key features and planned releases more effectively instead of trying to launch everything at once.</li>
+              <li><strong>Focus on the overall experience</strong>: I spent an excessive amount of time on minor design aesthetics rather than on the overall user experience. This led to missing important edge cases and interaction details during prototyping. It’s crucial to balance visual design with usability to ensure a comprehensive and functional user experience.</li>
+              <li><strong>Align on goals early</strong>: We often found ourselves misaligned on goals and lacked a comprehensive brainstorming session at the beginning of the project. Holding such a session would have helped us clarify objectives and set a unified direction. I would advocate for early goal alignment and collaborative planning in future projects.</li>
+              <li><strong>Invest in discovery and definition</strong>: I would allocate more time to the discovery and definition phases of a project. This includes interviewing both renters and landlords, developing detailed user flows, and creating wireframes before moving on to mid to high-fidelity designs. Thorough exploration and definition of user needs and workflows are essential for creating a well-rounded and effective design.</li>
+            </ol>  
+          </div>  
+        </div>
+      </section> 
+  <!-- DONT DELETE -->
+    </div>
+  </div>  
+
+  <div class="container">
+    <hr>
+  </div>
+  
+  <section class="">
+    <div class="container footer">
+      <div class="gap-sm">
+        <h1>Thanks for visiting ٩(ˊᗜˋ*)و ♡</h1>
+        <p>Designed and coded by Cynthia Wang</p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>LET'S CHAT!</p>
+          <p><a href="https://www.linkedin.com/in/cynthiawangdesign/" target="_blank">LinkedIn &nearr;</a></p>
+        </div>
+        <p><a href="mailto:cynthia_wang@brown.edu" target="_blank">Email &nearr;</a></p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>NAVIGATION</p>
+          <p><a href="../">Work</a></p>
+        </div>
+        <!-- <p><a href="#">Play</a></p> -->
+        <p><a href="../about/">About</a></p>
+        <p><a href="https://docs.google.com/document/d/1ndW5JyfrWtd5t9khAoJJcHyy4zvyieroYPjoqpuAvbI/edit?usp=sharing" target="_blank">Resume</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

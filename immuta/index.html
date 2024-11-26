@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Immuta</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+</head>
+<body>
+  <section class="navbar">
+    <a href="../">
+      <div style="display: flex; gap: var(--padding-xs); align-items: center;">
+        <img src="/images/favicon.png" style="width: var(--body-font-size); height: var(--body-font-size)">
+        <p>Cynthia Wang</p>
+      </div>
+    </a>
+    <div class="nav-links">
+      <a href="../">WORK</a>
+      <!-- <a href="#">PLAY</a> -->
+      <a href="../about/">ABOUT</a>
+      <a href="https://docs.google.com/document/d/1ndW5JyfrWtd5t9khAoJJcHyy4zvyieroYPjoqpuAvbI/edit?usp=sharing" target="_blank">RESUME</a>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <img src="/images/immuta/cover.png">
+    </div>
+  </section>
+
+  <div class="project-details">
+    <div class="">
+      <div class="sidenav gap-sm">
+        <p><a href="#overview">1. OVERVIEW</a></p>
+        <p><a href="#context">2. CONTEXT</a></p>
+        <p><a href="#problem">3. PROBLEM</a></p>
+        <p><a href="#objectives">4. OBJECTIVES</a></p>
+        <p><a href="#solution">5. SOLUTION</a></p>
+        <p><a href="#process">6. PROCESS</a></p>
+        <p><a href="#learnings">7. LEARNINGS</a></p>
+      </div>  
+    </div>
+    
+    <div>
+      <!-- OVERVIEW -->
+      <section class="">
+        <div class="container gap-lg">
+          <div class="gap-sm">
+            <h1>Immuta</h1>
+            <p>One platform to govern and secure all your cloud data.</p>
+          </div>
+          
+          <div class="col-container">
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">DURATION</p>
+                <p class="small-text">May 2024 - Aug 2024<br>11 weeks
+                </p>
+              </div>
+              <div>
+                <p class="subheading">LOCATION</p>
+                <p class="small-text">Boston, MA / Remote</p>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">TEAM</p>
+                <div class="gap-xs">
+                  <p class="small-text">Design Manager:<br>
+                    Peter Krueger</p>
+                  <p class="small-text">Senior UX Designer:<br>Kenlee Présumé</p>
+                  <p class="small-text">Product Managers:<br>Claude Zwicker, Claire Foster</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cols">
+              <div class="col">
+                <p class="subheading">DISCIPLINES</p>
+                <p class="small-text">Dashboard Design<br>
+                  Visual Design
+                </p>
+              </div>
+              <div class="col">
+                <p class="subheading">TOOLS</p>
+                <p class="small-text">Figma<br>Jira</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="info-card deep">
+            <p>This case study is focused on <strong>Policy Observability</strong>, which I worked on in the latter half of my internship for <strong>6 weeks</strong>.</p>
+          </div>
+        </div>  
+      </section>
+
+      <!-- OVERVIEW -->
+      <section id="overview">
+        <div class="container">
+          <p class="subheading">OVERVIEW</p>
+          <div class="gap-lg">
+            <div class="gap-md">
+              <div class="gap-sm">
+                <h2>Internship Summary</h2>
+                <p>As the sole UX design intern in my summer cohort, I led and contributed to a total of 12 projects, each varying in scope and requirement detail. Below are three of the larger projects I worked on:
+                </p>
+              </div>
+              <div class="gap-xs">
+                <h4>Policy Observability - 6 weeks</h4>
+                <ul>
+                  <li>Designed a new overview dashboard, incorporated revamped status indicators, and integrated progress bars on policy lists and detail pages to enable real-time monitoring of policy synchronization.</li>
+                  <li><em>What this whole case study is about!</em></li>
+                </ul>
+              </div>
+              
+              <div class="gap-xs">
+                <h4>Version Upgrade Notifications - 4 weeks</h4>
+                <ul>
+                  <li>Developed tailored notification strategies for different user needs: implemented in-app notifications for upgrade eligibility with links to documentation for more details, and created persistent reminders for users approaching the end of support for their platform version.</li>
+                  <li>Presented designs to key stakeholders within the engineering and product teams.</li>
+                </ul>
+              </div>
+
+              <div class="gap-xs">
+                <h4>AI Copilot for Policy Builder - 2 weeks (🔒 Under NDA)</h4>
+                <ul>
+                  <li>Conceptualized and prototyped the platform's first AI-powered feature designed to assist users in drafting policies.</li>
+                  <li>Collaborated with manager to define the MVP and establish a long-term vision for the product feature.</li>
+                </ul>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+
+      <!-- CONTEXT -->
+      <section id="context">
+        <div class="container">
+          <p class="subheading">CONTEXT</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>A Quick Overview of Policies</h2>
+              <p>Immuta has two types of policies, subscription and data. Subscription policies grant users read access, which enables viewing access to data, or write access, which enables both viewing and editing access. Data policies work in tandem with subscription policies and limit the amount of information users see.</p>
+            </div>
+            <p>From the general policy list view, the user can add a policy through the global policy builder.</p>
+            <img src="/images/immuta/global-subscription-policy-builder.png">
+            <p>After completing the policy builder, the user can activate or stage their policy. Depending on their selection, the policy is displayed at the top of the policy list and is assigned one of three statuses:</p>
+            <img src="/images/immuta/old-policies-list-status-column.png">
+          </div>
+        </div>
+      </section>
+
+      <!-- PROBLEM -->
+      <section id="problem">
+        <div class="container">
+          <p class="subheading">PROBLEM</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Policy enforcement feels automatic when it's really not.</h2>
+              <p>When users create or modify policies in the platform, it often seems as though these changes are applied instantly. However, in reality, the process could take hours, especially if the policy affects hundreds of data sources or users. Since this delay is not communicated clearly, users remain uncertain about when their changes will take effect.</p>
+            </div>
+            <p>Additionally, if a policy fails during synchronization, there's no indication of this failure in the UI, making it nearly impossible for users to pinpoint and troubleshoot errors. Instead, they must contact Customer Success, who then reaches out to Product, who diagnoses the issue.</p>
+            <p>This lack of transparency leaves users frustrated and adds inefficiency to their workflow.</p>
+          </div>  
+        </div>
+      </section>
+
+      <!-- OBJECTIVES -->
+      <section id="objectives">
+        <div class="container">
+          <p class="subheading">OBJECTIVES</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Project Goals</h2>
+              <p>This goal of this project is to provide users with a comprehensive interface to manage and monitor their policies. This will allow users to quickly understand the status of their policies, take necessary actions to resolve issues, track the progress of policy changes, and identify access entitlements in the context of their data platform integration.</p>
+            </div>
+            <p>Primarily, users required:</p>
+            <div class="card-container">
+              <div class="info-card light">
+                <h4>👀 Policy Status at a Glance</h4>
+                <p class="subheading">Users need to see at a glance which policies are fully synchronized, which have outstanding tasks, and which are subject to critical issues—both from a list and immediate notifications.</p>  
+              </div>
+
+              <div class="info-card light">
+                <h4>💥 Clear Action Triggers</h4>
+                <p class="subheading">Users require clear actions to trigger a resynchronization or remediate issues.</p>  
+              </div>
+
+              <div class="info-card light">
+                <h4>📈 Progress Tracking</h4>
+                <p class="subheading">Users need the ability to see the progress on the fulfillment of a policy change that is being applied and receive an estimate of when the change will complete.</p>  
+              </div>
+
+              <div class="info-card light">
+                <h4>✋ Access Entitlements</h4>
+                <p class="subheading">Users need to easily identify what access entitlements an Immuta policy has granted or restricted in the language of the underlying data platform integration.</p>  
+              </div>
+            </div>  
+          </div>  
+        </div>
+      </section>
+
+      <div class="container gap-md">
+        <p>These requirements translated to the following questions I worked to answer:</p>
+        <div class="gap-sm">
+          <div class="info-card dark">
+            <p class="subheading">HMW Statement 01</p>
+            <p>How might we enable users to quickly understand the status of their policies and take appropriate actions?</p>  
+          </div>
+
+          <div class="info-card dark">
+            <p class="subheading">HMW Statement 02</p>
+            <p>How can we provide clear and intuitive interfaces for action triggers and status indicators?</p>  
+          </div>
+
+          <div class="info-card dark">
+            <p class="subheading">HMW Statement 03</p>
+            <p>How can we offer detailed progress tracking and estimated completion times for policy changes?</p>  
+          </div>
+
+          <div class="info-card dark">
+            <p class="subheading">HMW Statement 04</p>
+            <p>How can we seamlessly integrate access entitlement information in the language of the underlying data platform?</p>  
+          </div>
+        </div>
+      </div>
+
+      <div class="container gap-md">
+        <div class="gap-sm">
+          <h2>Design Considerations</h2>
+          <p>I centered my designs around these principles to ensure that users were not only equipped with the necessary information to resolve any issues, but could also do it in a timely manner without being hindered by the UI.</p>
+        </div>
+
+        <div class="card-container">
+          <div class="info-card light">
+            <h4>⚡ Efficiency</h4>
+            <p class="subheading">Enable users to quickly understand the status of their policies and take appropriate actions.</p>  
+          </div>
+
+          <div class="info-card light">
+            <h4>💎 Clarity</h4>
+            <p class="subheading">Provide clear and intuitive interfaces for action triggers and status indicators.</p>  
+          </div>
+
+          <div class="info-card light">
+            <h4>🔎 Transparency</h4>
+            <p class="subheading">Offer detailed progress tracking and estimated completion times for policy changes.</p>  
+          </div>
+
+          <div class="info-card light">
+            <h4>🤝 Integration</h4>
+            <p class="subheading">Seamlessly integrate access entitlement information in the language of the underlying data platform.</p>  
+          </div>
+        </div>
+      </div>
+
+      <!-- SOLUTION -->
+      <section id="solution">
+        <div class="container">
+          <p class="subheading">SOLUTION</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Final Designs</h2>
+              <p>After many rounds of cross-functional reviews and iterations, I ended up designing over 160 screens. </p>
+            </div>
+
+            <div class="info-card deep">
+              <div class="row md">
+                <div class="col-1-3">
+                  <h4>01 | Policies at a Glance</h4>
+                </div>
+                <div class="col-2-3">
+                  <p>New dashboard provides users with a  comprehensive overview of their policies and allows them to view subscription and data policies together and independently.</p>
+                </div>
+              </div>
+              <video autoplay muted loop playsinline title="">
+                <source src="/images/immuta/overview-tabs.mp4" type="video/mp4"/>
+              </video>
+            </div>
+
+            <div class="info-card deep">
+              <div class="row xs">
+                <div class="col-1-3">
+                  <h4>02 | Action Triggers</h4>
+                </div>
+                <div class="col-2-3">
+                  <p>Revamped Status and Action columns and added expandable column allow users to troubleshoot accordingly.</p>
+                </div>
+              </div>
+              <video autoplay muted loop playsinline title="">
+                <source src="/images/immuta/policy-list-triggers.mp4" type="video/mp4"/>
+              </video>
+            </div>
+
+            <div class="info-card deep">
+              <div class="row xs">
+                <div class="col-1-3">
+                  <h4>03 | Progress Tracking</h4>
+                </div>
+                <div class="col-2-3">
+                  <p>Expandable column (in previous section) and policy details' new progress bar provide full transparency on estimated synchronization time.</p>
+                </div>
+              </div>
+              <video autoplay muted loop playsinline title="">
+                <source src="/images/immuta/policy-details-synchronization.mp4" type="video/mp4"/>
+              </video>
+            </div>
+
+            <div class="info-card deep">
+              <div class="row xs">
+                <div class="col-1-3">
+                  <h4>04 | Access Entitlements</h4>
+                </div>
+                <div class="col-2-3">
+                  <p>Platform indicators display the types of access entitlements granted to users, making them aware of their permissions.</p>
+                </div>
+              </div>
+              <video autoplay muted loop playsinline title="">
+                <source src="/images/immuta/platform-indicators-and-access-entitlements.mp4" type="video/mp4"/>
+              </video>
+            </div>
+          </div>
+        </div>
+      </section> 
+
+      <section id="process">
+        <div class="container">
+          <p class="subheading">PROCESS</p>
+          <div class="gap-md">
+            <div class="gap-sm">
+              <h2>Understanding the Product Ecosystem</h2>
+              <p>I started by creating a sitemap to better understand how the entire platform worked together and how various pages interacted with each other.</p>
+            </div>
+            <img src="/images/immuta/site-map.png">
+            <p>While most sub-primary navigation items were housed within their corresponding primary navigation sections, represented by blue arrows, I noticed that some pages branched out to different navigation areas, indicated by pink arrows.</p>
+            <p>Noticing that many primary navigation items had their own overview pages, I decided to design one for Policies as well, given their integral role in our product.</p>
+          </div> 
+        </div>
+      </section>
+
+      <div class="container">
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>Navigating Early Stage Design</h2>
+            <p>Since it was my first time designing a dashboard, I referenced many of our existing overview pages and tweaked existing visualizations for my needs. While I wasn’t a fan of the old graphs, I struggled to devise the best way to present the following information, given the lack of clear requirements.</p>
+            <img src="/images/immuta/overview-iteration-1.png">
+            <p>As I worked, I noticed that most of our existing overview pages didn’t link to other areas, despite being dashboards. Following that pattern, I initially designed without actionable elements in mind.</p>
+            <p>However, I was soon prompted to reconsider this approach when I received this feedback:</p>
+            <div class="quote-container immuta">
+              <p>“We should focus on what is actionable, however, to make sure the user gets value out of it beyond ‘this is a cool/interesting dashboard’”</p>
+            </div>
+          </div> 
+        </div>  
+      </div>
+
+      <div class="container">
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>Taking a Step Back</h2>
+            <p>To ensure that the dashboard was being optimized, I began mapping out user flows.</p>
+          </div>
+          <img src="/images/immuta/overview-flows.png">
+          <p>These flows soon became more complex as I received more information from my manager over the weeks.</p>
+          <img src="/images/immuta/iteration-2-flow-screens.png">
+        </div> 
+      </div>
+
+      <div class="container">
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>Iteration #2</h2>
+          </div>
+          <img src="/images/immuta/iteration-2-overview-interactions.png"> 
+          <p>In my previous iteration, I placed a failed synchronizations list at the bottom of the page. However, this required users to scroll down to see their issues rather than being able to see them immediately. I revised this by changing it to a banner at the top of the page.</p>
+          <img src="/images/immuta/identifying-error-flow.png">
+          <p>While I believed this change made sense, the PMs found the logic confusing and felt it wasn't efficient enough for users.</p> 
+          <p>Some other comments I received were as followed:</p>
+          <div class="card-container">
+            <div class="quote-container immuta">
+              <p>“Try to leverage existing pages as much as possible”</p>
+            </div>
+            <div class="quote-container immuta">
+              <p>“We don’t want the number of policies to indicate how ‘good’ something is.”</p> 
+            </div>
+            <div class="quote-container immuta">
+              <p>“Make more of a distinction between subscription policies and data policies”</p>
+            </div>
+            <div class="quote-container immuta">
+              <p>“Technical limitations with time frame filter”</p>
+            </div>
+          </div>  
+          <p>Receiving extensive feedback from stakeholders review sessions helped me gain a deeper understanding of our product and users. This helped me eventually create more technically feasible and user-focused designs. However, testing is still needed to validate these decisions!</p>
+        </div>
+      </div>
+
+      <div class="container">
+        <p class="subheading">ADDRESSING QUESTION 1</p>
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>How might we enable users to quickly understand the status of their policies and take appropriate actions?</h2>
+            <p>I designed a new overview page to better integrate existing parts of our platform, rather than creating new, separate pages. This overview aligns with our current pages, as shown in the site map, and provides users with a clear snapshot of their policies before exploring individual policy types.</p>
+          </div>
+          <video autoplay muted loop playsinline title="">
+            <source src="/images/immuta/overview-tabs.mp4" type="video/mp4"/>
+          </video>
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>Multipage Overview</h4>
+            </div>
+            <div class="col-2-3">
+              <p>I replaced the time frame filter on the overview page with a toggle and separated Subscription and Data Policies. In the All Policies section, I added labels for clarity to visualizations specific to only one policy.</p>
+            </div>
+          </div>
+
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>Statistical Cards</h4>
+            </div>
+            <div class="col-2-3">
+              <p>After removing the time frame, the statistical cards now reflect the total amount of items in each category and are no longer semantically associated with the total (e.g. an increase in the total is green, misleadingly interpreted as "better").</p>
+            </div>
+          </div>
+
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>Synchronization Status Banner</h4>
+            </div>
+            <div class="col-2-3">
+              <p>I moved the banner up to increase its prominence without being too integrated with the rest of the dashboard UI. Users can use the CTA in the banner or use the toggle for the same result.</p>
+            </div>
+          </div>
+
+          <img src="/images/immuta/overview-identify-error-popover.png">
+        </div> 
+      </div>
+
+      <div class="container">
+        <p class="subheading">ADDRESSING QUESTION 2</p>
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>How might we provide clear and intuitive interfaces for action triggers and status indicators?</h2>
+            <p>In order to address this question, I revamped our policy list view by:</p>
+            <ol>
+              <li>
+                Completely redesigning our status column to indicate clear policy statuses and better align with a new status column design by a fellow designer
+              </li>
+              <li>
+                Moving secondary information into a new expand / collapse column
+              </li>
+              <li>
+                Adding different states to the Action column
+              </li>
+            </ol>
+          </div>
+          <img src="/images/immuta/new-policies-list.png">
+
+          <img src="/images/immuta/status-column-changes.png">
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>Status Column</h4>
+            </div>
+            <div class="col-2-3 gap-md">
+              <p>The original status column lacked states and clarity, and while the animated spinner indicated an ongoing process, it was confusing when paired with the word "ACTIVE."</p>
+              <p>I explored several iterations, using various combinations of icons and text for status flags. I was eventually inspired by the way a fellow designer used icon-less flags and instead introduced a new column with icon buttons, which provided more details on hover. This solution was optimal for my work given the range of error types that can occur when a policy fails.</p>
+            </div>
+          </div>
+
+          <img src="/images/immuta/policy-list-status-column-progress-tracker-annotated.png">
+          <img src="/images/immuta/error-popover-types.png">
+          
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>01 | Error Message Popover</h4>
+            </div>
+            <div class="col-2-3">
+              <p>Following her approach, I designed four popovers to represent each error type.</p>
+            </div>
+          </div>
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>02 | Expand/Collapse Column</h4>
+            </div>
+            <div class="col-2-3">
+              <p>To reduce clutter, I moved secondary information to an expand/collapse column. I initially experimented with a separate synchronization progress column but found it redundant and unnecessarily occupying valuable horizontal space.</p>
+            </div>
+          </div>
+
+          <img src="/images/immuta/action-states.png">
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>03 | Action Column</h4>
+            </div>
+            <div class="col-2-3">
+              <p>I created various states for the action column to account for the limitations imposed on users based on the state of their policies.</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <div class="container">
+        <p class="subheading">ADDRESSING QUESTION 3</p>
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>How might we offer detailed progress tracking and estimated completion times for
+              policy changes?</h2>
+            <p>In addition to the changes to the status column and expandable, I added a progress indicator in the policy details page.</p>
+          </div>
+
+          <img src="/images/immuta/expand-collapse-column.png">
+          <img src="/images/immuta/progress-tracker-states.png">
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>Synchronization Progress</h4>
+            </div>
+            <div class="col-2-3">
+              <p>The progress bar informs users about the remaining synchronization time and any specific issues if they arise.</p>
+            </div>
+          </div>
+          <video autoplay muted loop playsinline title="">
+            <source src="/images/immuta/policy-details-synchronization.mp4" type="video/mp4"/>
+          </video>
+          <p>The progress bar remained consistent throughout the design process as it was immediately met with overwhelmingly positive feedback from the team.</p>
+        </div> 
+      </div>
+
+      <div class="container">
+        <p class="subheading">ADDRESSING QUESTION 4</p>
+        <div class="gap-md">
+          <div class="gap-sm">
+            <h2>How might we seamlessly integrate access entitlement information in the language of the underlying data platform?</h2>
+            <p>I added platform indicators to our data sources column to highlight the connection between data sources and data technologies. When users click on a data source, they can also see the new access entitlements column, which displays their permissions based on the technology.</p>
+          </div>
+          <p>These designs didn’t also change much from the beginning since they were received positively.</p>
+
+          <img src="/images/immuta/platform-indicators.png">
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>Platform Indicators</h4>
+            </div>
+            <div class="col-2-3">
+              <p>This displays the data platform integrations associated with the data sources targeted by each policy. Depending on the platform, users are granted different access entitlements.</p>
+            </div>
+          </div>
+
+          <img src="/images/immuta/data-sources-access-entitlements-annotated.png">
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>01 | Access Entitlements</h4>
+            </div>
+            <div class="col-2-3">
+              <p>I added this column to work alongside the technology column, listing the actions users can take on the data source based on their granted permissions.</p>
+            </div>
+          </div>
+
+          <div class="row xs">
+            <div class="col-1-3">
+              <h4>02 | Action Column</h4>
+            </div>
+            <div class="col-2-3">
+              <p>Similar to the policy list, I adjusted the action column to handle data source issues.</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+
+      <!-- LEARNINGS -->
+      <section id="learnings">
+        <div class="container">
+          <p class="subheading">LEARNINGS</p>
+          <div class="gap-sm">
+            <h2>Project Takeaways</h2>
+            <ol>
+              <li><strong>Prioritize flow over fidelity</strong>: I realized that focusing on high-fidelity designs without first understanding the user flows is counterproductive. It’s crucial to take a step back and think from a high-level perspective before diving into detailed designs. This approach helps prevent misalignment and ensures a more cohesive and effective user experience.</li>
+
+              <li><strong>Understand the bigger picture</strong>: I also learned to consider how my work fits into the larger product ecosystem. As a result, I began to evaluate the broader impact of introducing new design patterns in my work and realized that my contributions were not isolated, but rather interconnected with the rest of the product</li>
+            </ol>  
+          </div>  
+        </div>
+
+        <div class="container">
+          <div class="gap-lg">
+            <div class="gap-sm">
+              <h2>Internship Learnings</h2>
+              <ol>
+                <li><strong>Don't get too attached</strong>: It’s important not to get too attached to your designs. While they may look fine from a design perspective, they often require adjustments once reviewed by PMs and engineers, who provide additional insights about users, the product, and feasibility.</li>
+  
+                <li><strong>Effective organization and documentation</strong>: Thanks to the design team, I learned the importance of annotating designs and preparing detailed presentations for stakeholder meetings. This practice not only reduces confusion but also helps identify logical gaps in the work beforehand.</li>
+  
+                <li><strong>Frequent sharing</strong>: I discovered the value of regularly sharing my work with teammates and stakeholders, even while projects are ongoing. Keeping everyone updated helps align efforts and facilitates valuable feedback, contributing to a more cohesive and improved product.</li>
+              </ol> 
+              <p>Lastly, a huge thank you to everyone who supported me this summer—especially Peter and the rest of the UX Design team including Kenlee, Karla, and Josh, my project collaborators, and those who made the 1.5-hour commute worthwhile.</p> 
+            </div> 
+
+            <div class="info-card deep" style="gap: var(--padding-xs);">
+              <h4>But wait, there’s more.</h4>
+              <p>I’m excited to announce that I'm working part-time for Immuta this semester! As of now, I've been continuing my work for the AI Copilot experience, which is still under NDA. Reach out to me via <a href="https://www.linkedin.com/in/cynthiawangdesign/" target="_blank">LinkedIn &nearr;</a> or <a href="mailto:cynthia_wang@brown.edu" target="_blank">email &nearr;</a> if you’re interested in learning more!</p>
+            </div> 
+          </div>          
+        </div>
+      </section>
+    </div>
+  </div>
+  
+  <div class="container">
+    <hr>
+  </div>
+  
+  <section class="">
+    <div class="container footer">
+      <div class="gap-sm">
+        <h1>Thanks for visiting ٩(ˊᗜˋ*)و ♡</h1>
+        <p>Designed and coded by Cynthia Wang</p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>LET'S CHAT!</p>
+          <p><a href="https://www.linkedin.com/in/cynthiawangdesign/" target="_blank">LinkedIn &nearr;</a></p>
+        </div>
+        <p><a href="mailto:cynthia_wang@brown.edu" target="_blank">Email &nearr;</a></p>
+      </div>
+      <div>
+        <div class="gap-xs">
+          <p>NAVIGATION</p>
+          <p><a href="../">Work</a></p>
+        </div>
+        <!-- <p><a href="#">Play</a></p> -->
+        <p><a href="../about/">About</a></p>
+        <p><a href="https://docs.google.com/document/d/1ndW5JyfrWtd5t9khAoJJcHyy4zvyieroYPjoqpuAvbI/edit?usp=sharing" target="_blank">Resume</a></p>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
