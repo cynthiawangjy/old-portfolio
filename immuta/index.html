@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Immuta</title>
-  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="../styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+  <link rel="icon" type="image/x-icon" href="../images/favicon.png">
 </head>
 <body>
   <section class="navbar">
     <a href="../">
       <div style="display: flex; gap: var(--padding-xs); align-items: center;">
-        <img src="/images/favicon.png" style="width: var(--body-font-size); height: var(--body-font-size)">
+        <img src="../images/favicon.png" style="width: var(--body-font-size); height: var(--body-font-size)">
         <p>Cynthia Wang</p>
       </div>
     </a>
@@ -28,7 +28,7 @@
 
   <section>
     <div class="container">
-      <img src="/images/immuta/cover.png">
+      <img src="../images/immuta/cover.png">
     </div>
   </section>
 
@@ -148,9 +148,9 @@
               <p>Immuta has two types of policies, subscription and data. Subscription policies grant users read access, which enables viewing access to data, or write access, which enables both viewing and editing access. Data policies work in tandem with subscription policies and limit the amount of information users see.</p>
             </div>
             <p>From the general policy list view, the user can add a policy through the global policy builder.</p>
-            <img src="/images/immuta/global-subscription-policy-builder.png">
+            <img src="../images/immuta/global-subscription-policy-builder.png">
             <p>After completing the policy builder, the user can activate or stage their policy. Depending on their selection, the policy is displayed at the top of the policy list and is assigned one of three statuses:</p>
-            <img src="/images/immuta/old-policies-list-status-column.png">
+            <img src="../images/immuta/old-policies-list-status-column.png">
           </div>
         </div>
       </section>
@@ -279,7 +279,7 @@
                 </div>
               </div>
               <video autoplay muted loop playsinline title="">
-                <source src="/images/immuta/overview-tabs.mp4" type="video/mp4"/>
+                <source src="../images/immuta/overview-tabs.mp4" type="video/mp4"/>
               </video>
             </div>
 
@@ -293,7 +293,7 @@
                 </div>
               </div>
               <video autoplay muted loop playsinline title="">
-                <source src="/images/immuta/policy-list-triggers.mp4" type="video/mp4"/>
+                <source src="../images/immuta/policy-list-triggers.mp4" type="video/mp4"/>
               </video>
             </div>
 
@@ -307,7 +307,7 @@
                 </div>
               </div>
               <video autoplay muted loop playsinline title="">
-                <source src="/images/immuta/policy-details-synchronization.mp4" type="video/mp4"/>
+                <source src="../images/immuta/policy-details-synchronization.mp4" type="video/mp4"/>
               </video>
             </div>
 
@@ -321,7 +321,7 @@
                 </div>
               </div>
               <video autoplay muted loop playsinline title="">
-                <source src="/images/immuta/platform-indicators-and-access-entitlements.mp4" type="video/mp4"/>
+                <source src="../images/immuta/platform-indicators-and-access-entitlements.mp4" type="video/mp4"/>
               </video>
             </div>
           </div>
@@ -336,7 +336,7 @@
               <h2>Understanding the Product Ecosystem</h2>
               <p>I started by creating a sitemap to better understand how the entire platform worked together and how various pages interacted with each other.</p>
             </div>
-            <img src="/images/immuta/site-map.png">
+            <img src="../images/immuta/site-map.png">
             <p>While most sub-primary navigation items were housed within their corresponding primary navigation sections, represented by blue arrows, I noticed that some pages branched out to different navigation areas, indicated by pink arrows.</p>
             <p>Noticing that many primary navigation items had their own overview pages, I decided to design one for Policies as well, given their integral role in our product.</p>
           </div> 
@@ -348,7 +348,7 @@
           <div class="gap-sm">
             <h2>Navigating Early Stage Design</h2>
             <p>Since it was my first time designing a dashboard, I referenced many of our existing overview pages and tweaked existing visualizations for my needs. While I wasn’t a fan of the old graphs, I struggled to devise the best way to present the following information, given the lack of clear requirements.</p>
-            <img src="/images/immuta/overview-iteration-1.png">
+            <img src="../images/immuta/overview-iteration-1.png">
             <p>As I worked, I noticed that most of our existing overview pages didn’t link to other areas, despite being dashboards. Following that pattern, I initially designed without actionable elements in mind.</p>
             <p>However, I was soon prompted to reconsider this approach when I received this feedback:</p>
             <div class="quote-container immuta">
@@ -364,9 +364,9 @@
             <h2>Taking a Step Back</h2>
             <p>To ensure that the dashboard was being optimized, I began mapping out user flows.</p>
           </div>
-          <img src="/images/immuta/overview-flows.png">
+          <img src="../images/immuta/overview-flows.png">
           <p>These flows soon became more complex as I received more information from my manager over the weeks.</p>
-          <img src="/images/immuta/iteration-2-flow-screens.png">
+          <img src="../images/immuta/iteration-2-flow-screens.png">
         </div> 
       </div>
 
@@ -375,9 +375,9 @@
           <div class="gap-sm">
             <h2>Iteration #2</h2>
           </div>
-          <img src="/images/immuta/iteration-2-overview-interactions.png"> 
+          <img src="../images/immuta/iteration-2-overview-interactions.png"> 
           <p>In my previous iteration, I placed a failed synchronizations list at the bottom of the page. However, this required users to scroll down to see their issues rather than being able to see them immediately. I revised this by changing it to a banner at the top of the page.</p>
-          <img src="/images/immuta/identifying-error-flow.png">
+          <img src="../images/immuta/identifying-error-flow.png">
           <p>While I believed this change made sense, the PMs found the logic confusing and felt it wasn't efficient enough for users.</p> 
           <p>Some other comments I received were as followed:</p>
           <div class="card-container">
@@ -406,7 +406,7 @@
             <p>I designed a new overview page to better integrate existing parts of our platform, rather than creating new, separate pages. This overview aligns with our current pages, as shown in the site map, and provides users with a clear snapshot of their policies before exploring individual policy types.</p>
           </div>
           <video autoplay muted loop playsinline title="">
-            <source src="/images/immuta/overview-tabs.mp4" type="video/mp4"/>
+            <source src="../images/immuta/overview-tabs.mp4" type="video/mp4"/>
           </video>
           <div class="row xs">
             <div class="col-1-3">
@@ -435,7 +435,7 @@
             </div>
           </div>
 
-          <img src="/images/immuta/overview-identify-error-popover.png">
+          <img src="../images/immuta/overview-identify-error-popover.png">
         </div> 
       </div>
 
@@ -457,9 +457,9 @@
               </li>
             </ol>
           </div>
-          <img src="/images/immuta/new-policies-list.png">
+          <img src="../images/immuta/new-policies-list.png">
 
-          <img src="/images/immuta/status-column-changes.png">
+          <img src="../images/immuta/status-column-changes.png">
           <div class="row xs">
             <div class="col-1-3">
               <h4>Status Column</h4>
@@ -470,8 +470,8 @@
             </div>
           </div>
 
-          <img src="/images/immuta/policy-list-status-column-progress-tracker-annotated.png">
-          <img src="/images/immuta/error-popover-types.png">
+          <img src="../images/immuta/policy-list-status-column-progress-tracker-annotated.png">
+          <img src="../images/immuta/error-popover-types.png">
           
           <div class="row xs">
             <div class="col-1-3">
@@ -490,7 +490,7 @@
             </div>
           </div>
 
-          <img src="/images/immuta/action-states.png">
+          <img src="../images/immuta/action-states.png">
           <div class="row xs">
             <div class="col-1-3">
               <h4>03 | Action Column</h4>
@@ -511,8 +511,8 @@
             <p>In addition to the changes to the status column and expandable, I added a progress indicator in the policy details page.</p>
           </div>
 
-          <img src="/images/immuta/expand-collapse-column.png">
-          <img src="/images/immuta/progress-tracker-states.png">
+          <img src="../images/immuta/expand-collapse-column.png">
+          <img src="../images/immuta/progress-tracker-states.png">
           <div class="row xs">
             <div class="col-1-3">
               <h4>Synchronization Progress</h4>
@@ -522,7 +522,7 @@
             </div>
           </div>
           <video autoplay muted loop playsinline title="">
-            <source src="/images/immuta/policy-details-synchronization.mp4" type="video/mp4"/>
+            <source src="../images/immuta/policy-details-synchronization.mp4" type="video/mp4"/>
           </video>
           <p>The progress bar remained consistent throughout the design process as it was immediately met with overwhelmingly positive feedback from the team.</p>
         </div> 
@@ -537,7 +537,7 @@
           </div>
           <p>These designs didn’t also change much from the beginning since they were received positively.</p>
 
-          <img src="/images/immuta/platform-indicators.png">
+          <img src="../images/immuta/platform-indicators.png">
           <div class="row xs">
             <div class="col-1-3">
               <h4>Platform Indicators</h4>
@@ -547,7 +547,7 @@
             </div>
           </div>
 
-          <img src="/images/immuta/data-sources-access-entitlements-annotated.png">
+          <img src="../images/immuta/data-sources-access-entitlements-annotated.png">
           <div class="row xs">
             <div class="col-1-3">
               <h4>01 | Access Entitlements</h4>
